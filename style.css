@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+header 
+{
+    height: 60vh;
+    float: right;
+    display: inline-block;
+    width: 20%;
+}
+header ul
+{
+    list-style: none;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 40px;
+    border-left: 1px solid white;
+
+}
+header ul li
+{
+    padding: 25px 10px;
+    letter-spacing: 8px;
+}
+header ul li a
+{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+header ul li a:hover
+{
+    color: black;
+}
+.icons
+{
+    padding: 15px 0px;
+    font-size: 20px;
+}
+.icons a
+{
+    color: white;
+    padding: 0px 10px;
+}
+.icons a:hover
+{
+    color: black;
+}
+.logo
+{
+    height: 10vh;
+    width: 40%;
+    margin-top: 30px;
+    padding-left: 48px;
+}
+.logo h4{
+
+    font-family: 'Dancing Script', cursive;
+    color: rgb(194, 187, 187);
+    font-size: 30px;
+}
+.marry
+{
+    margin-top: 200px;
+    margin-left: 40px;
+
+}
+.btn
+{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.btn a
+{
+    background: black;
+    padding:10px 20px;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+span
+{
+    color:black;
+    font-size: 50px;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Prompt', sans-serif;
+    line-height: 2;
+
+}
+.marry h1{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Prompt',sans-serif;
+    color: rgb(194, 187, 187);
+}
+.marry p
+{
+    line-height: 3.5;
+    font-family: 'Prompt',sans-serif;
+
+}
+.wishes
+{
+    margin-left: 500px;
+    font-family: 'Prompt',sans-serif;
+
+}
+.wishes p
+{
+    color: rgb(194, 187, 187);
+    font-family: 'Prompt',sans-serif;
+    font-weight: bold;
+}
